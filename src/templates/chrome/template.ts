@@ -10,7 +10,7 @@ const template = (name: string, description: string, installDescription: string,
 
     return html`
         <div id="pwa-install-element" dir="${isRTL ? 'rtl' : 'ltr'}">
-            <div part="body" class="install-dialog chrome ${classMap(installDialogClasses())}">
+            <div part="body" class="install-dialog chrome ${classMap(installDialogClasses())}" name="pwa mf ${installAvailable}">
                 <div part="dialog-body" class="dialog-body">
                     <div class="icon">
                         <img src="${icon}" alt="icon" class="icon-image" draggable="false">
