@@ -35,6 +35,7 @@ export class PWAInstallElement extends LitElement {
 	@property() description = '';
 	@property({attribute: 'install-description'}) installDescription = '';
 	@property({attribute: 'disable-install-description', type: Boolean}) disableDescription = false;
+	@property({attribute: 'multiple-prompts', type: Boolean}) multiplePrompts = false;
 	@property({attribute: 'disable-screenshots', type: Boolean}) disableScreenshots = false;
 	@property({attribute: 'disable-screenshots-apple', type: Boolean}) disableScreenshotsApple = false;
 	@property({attribute: 'disable-screenshots-chrome', type: Boolean}) disableScreenshotsChrome = false;
@@ -204,7 +205,7 @@ export class PWAInstallElement extends LitElement {
 					Utils.eventInstalledSuccess(this);
 				}
 
-				_promptTriggered = true;
+				if (!multiplePrompts) _promptTriggered = true;
 				this.isAndroidFallback = false;
 				this.requestUpdate();
 			}
@@ -214,7 +215,7 @@ export class PWAInstallElement extends LitElement {
 				window.addEventListener('beforeinstallprompt', _promptHandler);
 		}
 		
-		if (!this.disableFallback && this.isAndroid && !_promptTriggered) {
+		if (!this.disableFallback && this.isAndroid && (!_promptTriggered || multiplePrompts)) {
 			// browsers without BeforeInstallPromptEvent
 			if (this.isAndroidFallback) {
 				setTimeout(
@@ -232,7 +233,7 @@ export class PWAInstallElement extends LitElement {
 				const _activation = navigator.userActivation;
 				const _activationHandler = setInterval(() => {
 					if (_activation.isActive || _activation.hasBeenActive) {
-						if (!_promptTriggered) {
+						if (!_promptTriggered || multiplePrompts) {
 							this.isAndroidFallback = true;
 							this.isInstallAvailable = true;
 							this.requestUpdate();
