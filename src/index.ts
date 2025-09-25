@@ -205,7 +205,7 @@ export class PWAInstallElement extends LitElement {
 					Utils.eventInstalledSuccess(this);
 				}
 
-				if (!multiplePrompts) _promptTriggered = true;
+				if (!this.multiplePrompts) _promptTriggered = true;
 				this.isAndroidFallback = false;
 				this.requestUpdate();
 			}
@@ -215,7 +215,7 @@ export class PWAInstallElement extends LitElement {
 				window.addEventListener('beforeinstallprompt', _promptHandler);
 		}
 		
-		if (!this.disableFallback && this.isAndroid && (!_promptTriggered || multiplePrompts)) {
+		if (!this.disableFallback && this.isAndroid && (!_promptTriggered || this.multiplePrompts)) {
 			// browsers without BeforeInstallPromptEvent
 			if (this.isAndroidFallback) {
 				setTimeout(
@@ -233,7 +233,7 @@ export class PWAInstallElement extends LitElement {
 				const _activation = navigator.userActivation;
 				const _activationHandler = setInterval(() => {
 					if (_activation.isActive || _activation.hasBeenActive) {
-						if (!_promptTriggered || multiplePrompts) {
+						if (!_promptTriggered || this.multiplePrompts) {
 							this.isAndroidFallback = true;
 							this.isInstallAvailable = true;
 							this.requestUpdate();
