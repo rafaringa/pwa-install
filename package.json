@@ -48,7 +48,8 @@
     "cem:analyze": "cem analyze",
     "test": "npm run build:noloc && node ./webpack/serve.js",
     "test:nobuild": "node ./webpack/serve.js",
-    "dev": "webpack serve --config webpack/webpack.dev.js --mode=development"
+    "dev": "webpack serve --config webpack/webpack.dev.js --mode=development",
+    "prepare": "npm run build"
   },
   "author": "khmyznikov",
   "license": "MIT",
