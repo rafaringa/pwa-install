@@ -54,7 +54,9 @@
   "author": "khmyznikov",
   "license": "MIT",
   "devDependencies": {
+    "lit": "^3.3.0",
     "@custom-elements-manifest/analyzer": "^0.10.4",
+    "@lit/react": "^1.0.7",
     "@lit/localize": "^0.12.2",
     "@lit/localize-tools": "^0.8.0",
     "@types/node": "^22.15.3",
