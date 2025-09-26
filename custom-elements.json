@@ -67,6 +67,15 @@
             },
             {
               "kind": "field",
+              "name": "multiplePrompts",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "multiple-prompts"
+            },
+            {
+              "kind": "field",
               "name": "disableScreenshots",
               "type": {
                 "text": "boolean"
@@ -356,6 +365,14 @@
               },
               "default": "false",
               "fieldName": "disableDescription"
+            },
+            {
+              "name": "multiple-prompts",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "multiplePrompts"
             },
             {
               "name": "disable-screenshots",
