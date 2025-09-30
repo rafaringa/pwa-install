@@ -17,7 +17,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "'/manifest.json'",
+              "default": "\"/manifest.json\"",
               "attribute": "manifest-url"
             },
             {
@@ -26,7 +26,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "''",
+              "default": "\"\"",
               "attribute": "icon"
             },
             {
@@ -35,7 +35,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "''",
+              "default": "\"\"",
               "attribute": "name"
             },
             {
@@ -44,7 +44,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "''",
+              "default": "\"\"",
               "attribute": "description"
             },
             {
@@ -53,7 +53,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "''",
+              "default": "\"\"",
               "attribute": "install-description"
             },
             {
@@ -157,6 +157,15 @@
             },
             {
               "kind": "field",
+              "name": "noSetStorage",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "no-set-storage"
+            },
+            {
+              "kind": "field",
               "name": "externalPromptEvent",
               "type": {
                 "text": "BeforeInstallPromptEvent | null"
@@ -167,7 +176,7 @@
               "kind": "field",
               "name": "platforms",
               "type": {
-                "text": "BeforeInstallPromptEvent['platforms']"
+                "text": "BeforeInstallPromptEvent[\"platforms\"]"
               },
               "privacy": "public",
               "default": "[]"
@@ -179,7 +188,7 @@
                 "text": "string"
               },
               "privacy": "public",
-              "default": "''"
+              "default": "\"\""
             },
             {
               "kind": "field",
@@ -323,7 +332,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "'/manifest.json'",
+              "default": "\"/manifest.json\"",
               "fieldName": "manifestUrl"
             },
             {
@@ -331,7 +340,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "''",
+              "default": "\"\"",
               "fieldName": "icon"
             },
             {
@@ -339,7 +348,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "''",
+              "default": "\"\"",
               "fieldName": "name"
             },
             {
@@ -347,7 +356,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "''",
+              "default": "\"\"",
               "fieldName": "description"
             },
             {
@@ -355,7 +364,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "''",
+              "default": "\"\"",
               "fieldName": "installDescription"
             },
             {
@@ -445,6 +454,14 @@
               },
               "default": "false",
               "fieldName": "useLocalStorage"
+            },
+            {
+              "name": "no-set-storage",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "noSetStorage"
             }
           ],
           "superclass": {

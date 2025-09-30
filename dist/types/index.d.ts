@@ -1,5 +1,5 @@
-import { LitElement, PropertyValues } from 'lit';
-import { IRelatedApp, PWAInstallAttributes } from './types/types.js';
+import { LitElement, PropertyValues } from "lit";
+import { IRelatedApp, PWAInstallAttributes } from "./types/types";
 export declare class PWAInstallElement extends LitElement {
     manifestUrl: string;
     icon: string;
@@ -17,9 +17,10 @@ export declare class PWAInstallElement extends LitElement {
     disableClose: boolean;
     disableFallback: boolean;
     useLocalStorage: boolean;
+    noSetStorage: boolean;
     static get styles(): CSSStyleSheet[];
     externalPromptEvent: BeforeInstallPromptEvent | null;
-    platforms: BeforeInstallPromptEvent['platforms'];
+    platforms: BeforeInstallPromptEvent["platforms"];
     userChoiceResult: string;
     isDialogHidden: boolean;
     isInstallAvailable: boolean;

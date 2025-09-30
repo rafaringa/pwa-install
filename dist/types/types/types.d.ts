@@ -1,4 +1,4 @@
-import { ImageResource, WebAppManifest } from 'web-app-manifest';
+import { ImageResource, WebAppManifest } from "web-app-manifest";
 export interface IRelatedApp {
     id: string;
     platform: string;
@@ -8,15 +8,16 @@ export interface IWindow extends Window {
     defferedPromptEvent: BeforeInstallPromptEvent | null;
     BeforeInstallPromptEvent: BeforeInstallPromptEvent;
 }
-type Booleanish = 'true' | 'false';
+type Booleanish = "true" | "false";
 export interface PWAInstallAttributes {
-    ['manual-apple']?: Booleanish;
-    ['manual-chrome']?: Booleanish;
-    ['disable-chrome']?: Booleanish;
-    ['multiple-prompts']?: Booleanish;
-    ['install-description']?: string;
-    ['disable-install-description']?: Booleanish;
-    ['manifest-url']?: string;
+    ["manual-apple"]?: Booleanish;
+    ["manual-chrome"]?: Booleanish;
+    ["disable-chrome"]?: Booleanish;
+    ["multiple-prompts"]?: Booleanish;
+    ["install-description"]?: string;
+    ["disable-install-description"]?: Booleanish;
+    ["no-set-storage"]?: Booleanish;
+    ["manifest-url"]?: string;
     name?: string;
     description?: string;
     icon?: string;
