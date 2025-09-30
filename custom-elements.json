@@ -112,6 +112,15 @@
             },
             {
               "kind": "field",
+              "name": "manualMobile",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "true",
+              "attribute": "manual-mobile"
+            },
+            {
+              "kind": "field",
               "name": "manualChrome",
               "type": {
                 "text": "boolean"
@@ -414,6 +423,14 @@
               },
               "default": "false",
               "fieldName": "manualApple"
+            },
+            {
+              "name": "manual-mobile",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "true",
+              "fieldName": "manualMobile"
             },
             {
               "name": "manual-chrome",
