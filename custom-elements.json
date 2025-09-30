@@ -103,21 +103,21 @@
             },
             {
               "kind": "field",
+              "name": "manualMobile",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "manual-mobile"
+            },
+            {
+              "kind": "field",
               "name": "manualApple",
               "type": {
                 "text": "boolean"
               },
               "default": "false",
               "attribute": "manual-apple"
-            },
-            {
-              "kind": "field",
-              "name": "manualMobile",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "true",
-              "attribute": "manual-mobile"
             },
             {
               "kind": "field",
@@ -417,20 +417,20 @@
               "fieldName": "disableScreenshotsChrome"
             },
             {
+              "name": "manual-mobile",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "manualMobile"
+            },
+            {
               "name": "manual-apple",
               "type": {
                 "text": "boolean"
               },
               "default": "false",
               "fieldName": "manualApple"
-            },
-            {
-              "name": "manual-mobile",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "true",
-              "fieldName": "manualMobile"
             },
             {
               "name": "manual-chrome",

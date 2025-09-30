@@ -6,14 +6,6 @@
         <source>Install</source>
         <target>Instal·la</target>
       </trans-unit>
-      <trans-unit id="sa5ef80b4bb9b39f8">
-        <source>Less</source>
-        <target>Menys</target>
-      </trans-unit>
-      <trans-unit id="s37a9e8aec5713460">
-        <source>More</source>
-        <target>Més</target>
-      </trans-unit>
       <trans-unit id="s1b9047d53d9f9d22">
         <source>2) Press Share in Navigation bar</source>
         <target>2) Premeu comparteix a la barra de navegació</target>
@@ -46,10 +38,6 @@
         <source>Add to Dock</source>
         <target>Afegeix al Dock</target>
       </trans-unit>
-      <trans-unit id="sba52286c21552a4e">
-        <source>Install it on your device for extensive experience and easy access.</source>
-        <target>Instal·la'l al teu dispositiu per a una àmplia experiència i fàcil accés.</target>
-      </trans-unit>
       <trans-unit id="s1488e73779d7682f">
         <source>1) Open your browser menu</source>
         <target>1) Obre el menú del navegador</target>
@@ -66,6 +54,15 @@
         <source>3) Scroll down to "Add to Home Screen"</source>
         <target>3) Desplaça't cap avall fins a "Afegeix a la pantalla d'inici"</target>
       </trans-unit>
+<trans-unit id="sba52286c21552a4e">
+  <source>Install it on your device for extensive experience and easy access.</source>
+</trans-unit>
+<trans-unit id="sa5ef80b4bb9b39f8">
+  <source>Less</source>
+</trans-unit>
+<trans-unit id="s37a9e8aec5713460">
+  <source>More</source>
+</trans-unit>
     </body>
 </file>
 </xliff>

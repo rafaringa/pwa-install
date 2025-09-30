@@ -11,8 +11,8 @@ export declare class PWAInstallElement extends LitElement {
     disableScreenshots: boolean;
     disableScreenshotsApple: boolean;
     disableScreenshotsChrome: boolean;
-    manualApple: boolean;
     manualMobile: boolean;
+    manualApple: boolean;
     manualChrome: boolean;
     disableChrome: boolean;
     disableClose: boolean;

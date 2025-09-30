@@ -10,18 +10,6 @@
   <source>This site has app functionality.</source>
   <target>Denna webbsajt har app-funktionalitet.</target>
 </trans-unit>
-<trans-unit id="sba52286c21552a4e">
-  <source>Install it on your device for extensive experience and easy access.</source>
-  <target>Installera den på din enhet för att få en bättre användarupplevelse och enklare åtkomst.</target>
-</trans-unit>
-<trans-unit id="sa5ef80b4bb9b39f8">
-  <source>Less</source>
-  <target>Mindre</target>
-</trans-unit>
-<trans-unit id="s37a9e8aec5713460">
-  <source>More</source>
-  <target>Mer</target>
-</trans-unit>
 <trans-unit id="se740f75b95a51807">
   <source>Add it to your Dock for extensive experience and easy access.</source>
   <target>Lägg till i Dock för att få en bättre användarupplevelse och enklare åtkomst.</target>
@@ -65,6 +53,15 @@
 <trans-unit id="s2d90afa5dcca2c0e">
   <source>3) Scroll down to "Add to Home Screen"</source>
     <target>3) Scrolla ner till "Lägg till på hemskärmen"</target>
+</trans-unit>
+<trans-unit id="sba52286c21552a4e">
+  <source>Install it on your device for extensive experience and easy access.</source>
+</trans-unit>
+<trans-unit id="sa5ef80b4bb9b39f8">
+  <source>Less</source>
+</trans-unit>
+<trans-unit id="s37a9e8aec5713460">
+  <source>More</source>
 </trans-unit>
 </body>
 </file>

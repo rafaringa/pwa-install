@@ -8,7 +8,7 @@ const fallbackClass = (isAndroidFallback: boolean = false, howToRequested: boole
 
 const template = (name: string, description: string, icon: string, install: any, fallback?: boolean, howToRequested?: boolean) => {
   return html`
-    <div part="mobile-body" class="dialog-body ${classMap(fallbackClass(fallback, howToRequested))}">
+    <div class="dialog-body ${classMap(fallbackClass(fallback, howToRequested))}">
       <div class="touch-header" id="touch-header"></div>
       <div class="body-header">
         <div class="icon">
@@ -16,9 +16,9 @@ const template = (name: string, description: string, icon: string, install: any,
         </div>
         <div class="about">
           <div class="name">
-            <label>Aplicativo ${name}</label>
+            <label>${name}</label>
           </div>
-          <div class="hostname">Acesse mais rápido!</div>
+          <div class="hostname">${location.hostname}</div>
         </div>
         <button class="material-button primary install" @click="${install}">
           <svg class="check-icon" height="24px" viewBox="0 -960 960 960" width="24px" fill=""><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" /></svg>

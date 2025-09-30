@@ -6,14 +6,6 @@
         <source>Install</source>
         <target>Installa</target>
       </trans-unit>
-      <trans-unit id="sa5ef80b4bb9b39f8">
-        <source>Less</source>
-        <target>Meno</target>
-      </trans-unit>
-      <trans-unit id="s37a9e8aec5713460">
-        <source>More</source>
-        <target>Più</target>
-      </trans-unit>
       <trans-unit id="s1b9047d53d9f9d22">
         <source>2) Press Share in Navigation bar</source>
         <target>2) Premi Condividi nella barra di navigazione</target>
@@ -46,10 +38,6 @@
         <source>Add to Dock</source>
         <target>Aggiungi al Dock</target>
       </trans-unit>
-      <trans-unit id="sba52286c21552a4e">
-        <source>Install it on your device for extensive experience and easy access.</source>
-        <target>Installalo sul tuo dispositivo per un'esperienza più completa e un accesso facile.</target>
-      </trans-unit>
 <trans-unit id="s1488e73779d7682f">
   <source>1) Open your browser menu</source>
   <target>1) Apri il menu del tuo browser</target>
@@ -65,6 +53,15 @@
 <trans-unit id="s2d90afa5dcca2c0e">
   <source>3) Scroll down to "Add to Home Screen"</source>
   <target>3) Scorri verso il basso fino a "Aggiungi alla schermata principale"</target>
+</trans-unit>
+<trans-unit id="sba52286c21552a4e">
+  <source>Install it on your device for extensive experience and easy access.</source>
+</trans-unit>
+<trans-unit id="sa5ef80b4bb9b39f8">
+  <source>Less</source>
+</trans-unit>
+<trans-unit id="s37a9e8aec5713460">
+  <source>More</source>
 </trans-unit>
     </body>
   </file>

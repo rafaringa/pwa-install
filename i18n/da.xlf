@@ -10,18 +10,6 @@
   <source>This site has app functionality.</source>
   <target>Denne side har app-funktionalitet.</target>
 </trans-unit>
-<trans-unit id="sba52286c21552a4e">
-  <source>Install it on your device for extensive experience and easy access.</source>
-  <target>Installer den på din enhed for en bedre oplevelse og nem adgang.</target>
-</trans-unit>
-<trans-unit id="sa5ef80b4bb9b39f8">
-  <source>Less</source>
-  <target>Mindre</target>
-</trans-unit>
-<trans-unit id="s37a9e8aec5713460">
-  <source>More</source>
-  <target>Mere</target>
-</trans-unit>
 <trans-unit id="se740f75b95a51807">
   <source>Add it to your Dock for extensive experience and easy access.</source>
   <target>Tilføj den til din Dock for en bedre oplevelse og nem adgang.</target>
@@ -65,6 +53,15 @@
 <trans-unit id="s2d90afa5dcca2c0e">
   <source>3) Scroll down to "Add to Home Screen"</source>
   <target>3) Rul ned til "Tilføj til hjemmeskærm"</target>
+</trans-unit>
+<trans-unit id="sba52286c21552a4e">
+  <source>Install it on your device for extensive experience and easy access.</source>
+</trans-unit>
+<trans-unit id="sa5ef80b4bb9b39f8">
+  <source>Less</source>
+</trans-unit>
+<trans-unit id="s37a9e8aec5713460">
+  <source>More</source>
 </trans-unit>
 </body>
 </file>

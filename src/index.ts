@@ -39,8 +39,8 @@ export class PWAInstallElement extends LitElement {
   @property({ attribute: "disable-screenshots", type: Boolean }) disableScreenshots = false;
   @property({ attribute: "disable-screenshots-apple", type: Boolean }) disableScreenshotsApple = false;
   @property({ attribute: "disable-screenshots-chrome", type: Boolean }) disableScreenshotsChrome = false;
+  @property({ attribute: "manual-mobile", type: Boolean }) manualMobile = false;
   @property({ attribute: "manual-apple", type: Boolean }) manualApple = false;
-  @property({ attribute: "manual-mobile", type: Boolean }) manualMobile = true;
   @property({ attribute: "manual-chrome", type: Boolean }) manualChrome = false;
   @property({ attribute: "disable-chrome", type: Boolean }) disableChrome = false;
   @property({ attribute: "disable-close", type: Boolean }) disableClose = false;
@@ -263,7 +263,7 @@ export class PWAInstallElement extends LitElement {
     this._isRTL = isRTL();
     this._init();
     PWAGalleryElement.finalized;
-    if (!this.manualMobile) PWABottomSheetElement.finalized;
+    PWABottomSheetElement.finalized;
     super.connectedCallback();
   }
   willUpdate(changedProperties: PropertyValues<this>) {
@@ -278,7 +278,7 @@ export class PWAInstallElement extends LitElement {
 
   render() {
     if (this.isAppleMobilePlatform || this.isAppleDesktopPlatform) return html`${templateApple(this.name, this.description, this.installDescription, this.disableDescription, this.disableScreenshots || this.disableScreenshotsApple, this.disableClose, this.icon, this._manifest, this.isInstallAvailable && !this.isDialogHidden, this._hideDialogUser, this._toggleHowTo, this.isAppleDesktopPlatform, this._howToRequested, this._toggleGallery, this._galleryRequested, this._isRTL)}`;
-    else return html`${template(this.name, this.description, this.installDescription, this.disableDescription, this.disableScreenshots || this.disableScreenshotsChrome, this.disableClose, this.icon, this._manifest, this.isInstallAvailable && !this.isDialogHidden, this._hideDialogUser, this._install, this._toggleGallery, this._galleryRequested, this._toggleHowTo, this._howToRequested, this.isAndroidFallback, this._isRTL)}`;
+    else return html`${template(this.name, this.description, this.installDescription, this.disableDescription, this.disableScreenshots || this.disableScreenshotsChrome, this.disableClose, this.icon, this._manifest, this.isInstallAvailable && !this.isDialogHidden, this._hideDialogUser, this._install, this._toggleGallery, this._galleryRequested, this._toggleHowTo, this._howToRequested, this.isAndroidFallback, this._isRTL, this.manualMobile)}`;
   }
 }
 

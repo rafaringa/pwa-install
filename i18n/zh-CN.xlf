@@ -6,14 +6,6 @@
         <source>Install</source>
         <target>安装</target>
       </trans-unit>
-      <trans-unit id="sa5ef80b4bb9b39f8">
-        <source>Less</source>
-        <target>收起</target>
-      </trans-unit>
-      <trans-unit id="s37a9e8aec5713460">
-        <source>More</source>
-        <target>更多</target>
-      </trans-unit>
       <trans-unit id="s1b9047d53d9f9d22">
         <source>2) Press Share in Navigation bar</source>
         <target>2) 点击导航栏中的“分享”按钮</target>
@@ -46,10 +38,6 @@
         <source>Add to Dock</source>
         <target>添加到程序坞</target>
       </trans-unit>
-      <trans-unit id="sba52286c21552a4e">
-        <source>Install it on your device for extensive experience and easy access.</source>
-        <target>在您的设备上安装，以享受更丰富的体验并便于访问。</target>
-      </trans-unit>
       <trans-unit id="s1488e73779d7682f">
         <source>1) Open your browser menu</source>
         <target>1) 打开浏览器菜单</target>
@@ -66,6 +54,15 @@
         <source>3) Scroll down to "Add to Home Screen"</source>
         <target>3) 向下滚动至“添加到主屏幕”</target>
       </trans-unit>
+<trans-unit id="sba52286c21552a4e">
+  <source>Install it on your device for extensive experience and easy access.</source>
+</trans-unit>
+<trans-unit id="sa5ef80b4bb9b39f8">
+  <source>Less</source>
+</trans-unit>
+<trans-unit id="s37a9e8aec5713460">
+  <source>More</source>
+</trans-unit>
     </body>
   </file>
 </xliff>

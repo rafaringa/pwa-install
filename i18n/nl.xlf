@@ -6,14 +6,6 @@
         <source>Install</source>
         <target>Installeren</target>
       </trans-unit>
-      <trans-unit id="sa5ef80b4bb9b39f8">
-        <source>Less</source>
-        <target>Minder</target>
-      </trans-unit>
-      <trans-unit id="s37a9e8aec5713460">
-        <source>More</source>
-        <target>Meer</target>
-      </trans-unit>
       <trans-unit id="s1b9047d53d9f9d22">
         <source>2) Press Share in Navigation bar</source>
         <target>2) Druk op delen in de navigatiebalk</target>
@@ -46,10 +38,6 @@
         <source>Add to Dock</source>
         <target>Toevoegen aan Dock</target>
       </trans-unit>
-      <trans-unit id="sba52286c21552a4e">
-        <source>Install it on your device for extensive experience and easy access.</source>
-        <target>Installeer het op je apparaat voor een uitgebreide ervaring en gemakkelijke toegang.</target>
-      </trans-unit>
       <trans-unit id="s1488e73779d7682f">
         <source>1) Open your browser menu</source>
         <target>1) Open je browsermenu</target>
@@ -66,6 +54,15 @@
         <source>3) Scroll down to "Add to Home Screen"</source>
         <target>3) Scrol naar beneden naar "Toevoegen aan startscherm"</target>
       </trans-unit>
+<trans-unit id="sba52286c21552a4e">
+  <source>Install it on your device for extensive experience and easy access.</source>
+</trans-unit>
+<trans-unit id="sa5ef80b4bb9b39f8">
+  <source>Less</source>
+</trans-unit>
+<trans-unit id="s37a9e8aec5713460">
+  <source>More</source>
+</trans-unit>
     </body>
   </file>
 </xliff>

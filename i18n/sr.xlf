@@ -6,14 +6,6 @@
         <source>Install</source>
         <target>Инсталирај</target>
       </trans-unit>
-      <trans-unit id="sa5ef80b4bb9b39f8">
-        <source>Less</source>
-        <target>Мање</target>
-      </trans-unit>
-      <trans-unit id="s37a9e8aec5713460">
-        <source>More</source>
-        <target>Више</target>
-      </trans-unit>
       <trans-unit id="s1b9047d53d9f9d22">
         <source>2) Press Share in Navigation bar</source>
         <target>2) Притисните Share у навигационој траци</target>
@@ -44,10 +36,6 @@
       <trans-unit id="s922329d6f6213590">
         <source>Add to Dock</source>
       </trans-unit>
-      <trans-unit id="sba52286c21552a4e">
-        <source>Install it on your device for extensive experience and easy access.</source>
-        <target>Инсталирајте га на вашем уређају за широке могућности и лак приступ.</target>
-      </trans-unit>
 <trans-unit id="s1488e73779d7682f">
   <source>1) Open your browser menu</source>
   <target>1) Отворите мени вашег прегледача</target>
@@ -63,6 +51,15 @@
 <trans-unit id="s2d90afa5dcca2c0e">
   <source>3) Scroll down to "Add to Home Screen"</source>
   <target>3) Померите се надоле до "Add to Home Screen"</target>
+</trans-unit>
+<trans-unit id="sba52286c21552a4e">
+  <source>Install it on your device for extensive experience and easy access.</source>
+</trans-unit>
+<trans-unit id="sa5ef80b4bb9b39f8">
+  <source>Less</source>
+</trans-unit>
+<trans-unit id="s37a9e8aec5713460">
+  <source>More</source>
 </trans-unit>
     </body>
   </file>
